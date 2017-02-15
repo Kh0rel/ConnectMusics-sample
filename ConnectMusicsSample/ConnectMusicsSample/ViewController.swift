@@ -16,7 +16,9 @@ class ViewController: UIViewController {
     }
 
     @IBAction func spotifyAuthenticationAction(_ sender: Any) {
-        ConnectMusics.sharedInstance.initProvider(provider: .spotify, clientID: "7cd76c8452a24424a2808e35fd5e0e7a", clientSecret: "cc48f54bd2c74def9456778d1fd7f9a0", redirectURI: "connectmusicsample://", scopeNeeded: "user-read-private user-read-email")
+        ConnectMusics.sharedInstance.initProvider(provider: .spotify, clientID: "7cd76c8452a24424a2808e35fd5e0e7a", clientSecret: "cc48f54bd2c74def9456778d1fd7f9a0", redirectURI: "connectmusicsample://")
+        
     }
+    
 }
 
