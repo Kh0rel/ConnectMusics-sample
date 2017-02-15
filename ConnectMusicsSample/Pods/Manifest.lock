@@ -1,0 +1,18 @@
+PODS:
+  - Alamofire (4.3.0)
+  - ConnectMusics (0.35.2):
+    - Alamofire (~> 4.3)
+    - SwiftyJSON
+  - SwiftyJSON (3.1.4)
+
+DEPENDENCIES:
+  - ConnectMusics
+
+SPEC CHECKSUMS:
+  Alamofire: 856a113053a7bc9cbe5d6367a555d773fc5cfef7
+  ConnectMusics: 52e19d3b2a362e5401898506c6ad098e19207e74
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+
+PODFILE CHECKSUM: e57d103113d8f103bc104fce6a332a377ca61064
+
+COCOAPODS: 1.2.0
