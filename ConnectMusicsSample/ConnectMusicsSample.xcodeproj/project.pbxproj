@@ -12,6 +12,10 @@
 		2C7EF7071E50A24300A8C245 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C7EF7051E50A24300A8C245 /* Main.storyboard */; };
 		2C7EF7091E50A24300A8C245 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C7EF7081E50A24300A8C245 /* Assets.xcassets */; };
 		2C7EF70C1E50A24300A8C245 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C7EF70A1E50A24300A8C245 /* LaunchScreen.storyboard */; };
+		74233D291E54FA41002E5945 /* SpotifyTracksListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74233D281E54FA41002E5945 /* SpotifyTracksListTableViewCell.swift */; };
+		74233D2B1E54FAA7002E5945 /* ListTracksSpotifyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74233D2A1E54FAA7002E5945 /* ListTracksSpotifyViewController.swift */; };
+		74CE68AE1E54CD39002B6A29 /* ListPlaylistsSpotifyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CE68AD1E54CD39002B6A29 /* ListPlaylistsSpotifyTableViewController.swift */; };
+		74CE68B01E54F074002B6A29 /* SpotifyPlaylistTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CE68AF1E54F074002B6A29 /* SpotifyPlaylistTableViewCell.swift */; };
 		F864D0FAB141363C5F277086 /* Pods_ConnectMusicsSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A301895556994FC16251E3FD /* Pods_ConnectMusicsSample.framework */; };
 /* End PBXBuildFile section */
 
@@ -24,6 +28,10 @@
 		2C7EF70B1E50A24300A8C245 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C7EF70D1E50A24300A8C245 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		46EF5BBA349F218918DC06BE /* Pods-ConnectMusicsSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConnectMusicsSample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ConnectMusicsSample/Pods-ConnectMusicsSample.debug.xcconfig"; sourceTree = "<group>"; };
+		74233D281E54FA41002E5945 /* SpotifyTracksListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpotifyTracksListTableViewCell.swift; sourceTree = "<group>"; };
+		74233D2A1E54FAA7002E5945 /* ListTracksSpotifyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTracksSpotifyViewController.swift; sourceTree = "<group>"; };
+		74CE68AD1E54CD39002B6A29 /* ListPlaylistsSpotifyTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListPlaylistsSpotifyTableViewController.swift; sourceTree = "<group>"; };
+		74CE68AF1E54F074002B6A29 /* SpotifyPlaylistTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpotifyPlaylistTableViewCell.swift; sourceTree = "<group>"; };
 		A301895556994FC16251E3FD /* Pods_ConnectMusicsSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ConnectMusicsSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAFF4C35A228A47DBCACA5F1 /* Pods-ConnectMusicsSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConnectMusicsSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-ConnectMusicsSample/Pods-ConnectMusicsSample.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -84,6 +92,10 @@
 				2C7EF7081E50A24300A8C245 /* Assets.xcassets */,
 				2C7EF70A1E50A24300A8C245 /* LaunchScreen.storyboard */,
 				2C7EF70D1E50A24300A8C245 /* Info.plist */,
+				74CE68AD1E54CD39002B6A29 /* ListPlaylistsSpotifyTableViewController.swift */,
+				74CE68AF1E54F074002B6A29 /* SpotifyPlaylistTableViewCell.swift */,
+				74233D281E54FA41002E5945 /* SpotifyTracksListTableViewCell.swift */,
+				74233D2A1E54FAA7002E5945 /* ListTracksSpotifyViewController.swift */,
 			);
 			path = ConnectMusicsSample;
 			sourceTree = "<group>";
@@ -212,8 +224,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74CE68B01E54F074002B6A29 /* SpotifyPlaylistTableViewCell.swift in Sources */,
+				74233D2B1E54FAA7002E5945 /* ListTracksSpotifyViewController.swift in Sources */,
 				2C7EF7041E50A24300A8C245 /* ViewController.swift in Sources */,
 				2C7EF7021E50A24300A8C245 /* AppDelegate.swift in Sources */,
+				74CE68AE1E54CD39002B6A29 /* ListPlaylistsSpotifyTableViewController.swift in Sources */,
+				74233D291E54FA41002E5945 /* SpotifyTracksListTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
